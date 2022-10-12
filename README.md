@@ -18,4 +18,4 @@
 **Also, check deep learning model app repo**
 
 
-*Link to ML model Sentiment Analysis repo: *
+*Link to ML model Sentiment Analysis repo: https://github.com/DDataRep27/Sentiment-Analysis----Hotel-reviews_Machine-Learning*
