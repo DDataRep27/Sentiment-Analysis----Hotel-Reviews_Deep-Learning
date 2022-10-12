@@ -1,4 +1,4 @@
-# Hotel Reviews Classification
+# Hotel Reviews Classification_Deep-Learning
 * Whenever we are looking for hotels for vacation or travel, we always prefer a hotel known for its services. The best way to find out whether a hotel is right for you or not is to find out what people are saying about the hotel who have stayed there before. Now it is very difficult to read the experience of each person who has given their opinion on the services of the hotel. This is where the task of sentiment analysis comes in. 
 
 * Well, every industry is now adopting sentiment analysis to assess its reputation in the online market. The hospitality industry is following the same path with hotel reviews sentiment analysis.
