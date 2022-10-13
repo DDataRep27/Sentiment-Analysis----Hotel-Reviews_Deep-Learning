@@ -37,7 +37,7 @@ model  = pipeline("sentiment-analysis", model = f_model, tokenizer=tokenizer)
 
 #Home Webage
 if not st.checkbox("Confirm, if you're not ROBOT!!"):
-    st_lottie(lottie_start, height=400, width=None, quality="high", speed=1.12, loop=True)
+    st_lottie(lottie_start, height=400, width=None, quality="high", speed=1.0, loop=True)
 
 #Sentiment Analysis Page
 else:
