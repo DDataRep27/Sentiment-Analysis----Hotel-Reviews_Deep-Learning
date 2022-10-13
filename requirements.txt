@@ -16,15 +16,15 @@ streamlit==1.12.2
 
 streamlit-lottie==0.0.3
 
-keras==2.9.0
+#keras==2.9.0
 
-Keras-Preprocessing==1.1.2
+#Keras-Preprocessing==1.1.2
 
-tensorflow==2.9.1
+#tensorflow==2.9.1
 
-tensorflow-estimator==2.9.0
+#tensorflow-estimator==2.9.0
 
-tensorflow-io-gcs-filesystem==0.26.0
+#tensorflow-io-gcs-filesystem==0.26.0
 
 transformers==4.22.2
 
