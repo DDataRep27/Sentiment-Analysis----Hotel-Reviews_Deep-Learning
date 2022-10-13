@@ -9,11 +9,11 @@ import time
 from streamlit_lottie import st_lottie, st_lottie_spinner
 import json
 from transformers import pipeline
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-f_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+f_model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
 
 #Background config
 def load_lottiefile(filepath: str):
