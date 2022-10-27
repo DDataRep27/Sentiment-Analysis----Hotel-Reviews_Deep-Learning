@@ -40,7 +40,7 @@ model  = pipeline("sentiment-analysis", model = f_model, tokenizer=tokenizer)
 
 #Home Webage
 if not st.checkbox("Confirm, if you're not ROBOT!!"):
-    st_lottie(lottie_start, height=400, width=None, quality="high", speed=1.0, loop=True)
+    st_lottie(lottie_start, height=400, width=None, quality="high", speed=1.1, loop=True)
 
 #Sentiment Analysis Page
 else:
@@ -48,7 +48,7 @@ else:
 #Title of web page
     st.title("Sentiment Analyzer")
 
-    st_lottie(lottie_type, height=207, width=195, quality="high", speed=1.5, loop=True)
+    st_lottie(lottie_type, height=207, width=195, quality="high", speed=1.4, loop=True)
 
     df = user_input_features()
 
@@ -67,8 +67,8 @@ else:
 #Predicting the result
     if st.button('Classify Text'):
         st.subheader('Predicted Result:')
-        with st_lottie_spinner(lottie_process, height=(225), width=(700), quality="high", speed=1.25):
-            time.sleep(1.5)
+        with st_lottie_spinner(lottie_process, height=(225), width=(700), quality="high", speed=1.1):
+            time.sleep(1.2)
             #dg['Sentiment']
         if dg['Sentiment'][0]=='NEGATIVE':
             #st.error(dg.iloc[0, 1], icon='😡')
