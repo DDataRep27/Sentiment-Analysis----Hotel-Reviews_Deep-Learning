@@ -67,8 +67,8 @@ else:
 #Predicting the result
     if st.button('Classify Text'):
         st.subheader('Predicted Result:')
-        with st_lottie_spinner(lottie_process, height=(225), width=(700), quality="high", speed=1.1):
-            time.sleep(1.2)
+        with st_lottie_spinner(lottie_process, height=(225), width=(700), quality="high", speed=1.2):
+            time.sleep(1)
             #dg['Sentiment']
         if dg['Sentiment'][0]=='NEGATIVE':
             #st.error(dg.iloc[0, 1], icon='😡')
